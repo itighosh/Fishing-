@@ -1,0 +1,1533 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FishingClub</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="banner-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light custom-navbar ">
+             <div class="logo">
+               <a class="navbar-brand" href="#"><img src="images/logo-1.png" alt="brand" loading="lazy"/></a>
+            </div>  
+             <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav p-0 m-0 mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link menu dropdown-toggle"
+                  href="index.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="menu">Home</span>
+                </a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="index.html">Homepage 1</a></li>
+                  <li><a class="dropdown-item" href="index.html">Homepage 2</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Homepage 3</a>
+                  </li>
+                  
+                </ul>
+
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="about.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false" 
+                >
+                  About Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="about.html">About 1</a></li>
+                  <li><a class="dropdown-item" href="#">About 2</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Features
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Tools</a></li>
+                  <li><a class="dropdown-item" href="#">Pages</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Service Plus</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Fishing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Camping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Travel</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Classic style</a></li>
+                  <li><a class="dropdown-item" href="#">Chess Style</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              </li>
+        
+            </ul>
+            
+            
+           </div>
+           <div class="element">
+            <a href="index.html" class="inited">Member Login</a>
+            
+           </div>
+           <div class="element-btn">
+            <a href="index.html" class="cmn-btn">Join the club</a>
+           </div>
+        </nav>
+         
+        </div>
+
+    </header>
+    <main>
+  
+    <section class="banner">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="images/home-1-slide-1.jpg" class="d-block w-100" alt="Fishing" loading="lazy">
+
+                <div class="carousel-caption custom-caption">
+                    <h1 class="h1-title">Let's go fishing!</h1>
+                    <p class="banner-sub">Become a member today!</p>
+
+                    <a href="index.html" class="banner_btn">Join the Club</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/home-1-slide-2.jpg" class="d-block w-100" alt="Fishing" loading="lazy">
+
+                <div class="carousel-caption custom-caption">
+                    <h1 class="h1-title">Earn prizes and trips!</h1>
+                    <p class="banner-sub">JOIN THE CLUB FOR YOUR CHANCE EVERY MONTH</p>
+
+                    <a href="index.html" class="banner_btn">Join the Club</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/home-1-slide-3.jpg" class="d-block w-100" alt="Fishing" loading="lazy">
+
+                <div class="carousel-caption custom-caption">
+                    <h1 class="h1-title">Catch a big fish!</h1>
+                    <p class="banner-sub">It's easy when you're a member.</p>
+                    <div class="ban-btn part-btn">
+                <a href="index.html" class="banner_btn part">Join the Club</a>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+    <section class="about">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="about-card">
+                    <figure>
+                        <img src="images/image1.jpg" class="img-fluid" alt="about" loading="lazy">
+                    </figure>
+
+                    <div class="card-text">
+                        <h4 class="h4-title">Fishing Sapphire Coast</h4>
+                        <p class="trx_addons_no_margins">
+                            <a href="index.html">the far south coast of new south wales</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="about-card">
+                    <figure>
+                        <img src="images/image2.jpg" class="img-fluid" alt="about" loading="lazy">
+                    </figure>
+
+                    <div class="card-text">
+                        <h4 class="h4-title">Member Fishing Camps</h4>
+                        <p class="trx_addons_no_margins">
+                            <a href="index.html">if you are a member and "have caught a big one"</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="about-card">
+                    <figure>
+                        <img src="images/image3.jpg" class="img-fluid" alt="about" loading="lazy">
+                    </figure>
+
+                    <div class="card-text">
+                        <h4 class="h4-title">Annual Fishing Competition</h4>
+                        <p class="trx_addons_no_margins">
+                            <a href="index.html">the competition is for the heaviest fish weighed</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="about-card">
+                    <figure>
+                        <img src="images/image4-370x209.jpg" class="img-fluid" alt="about" loading="lazy">
+                    </figure>
+
+                    <div class="card-text">
+                        <h4 class="h4-title">Our Sponsors</h4>
+                        <p class="trx_addons_no_margins">
+                            <a href="index.html">the success of the competition is due to the support of sponsors</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <section class="satatet">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 col-md-6">
+                <div class="statement-text">
+                    <h3 class="h3-title">Mission Statement</h3>
+
+                    <p>
+                        We are happy to support and promote fishing as a sport and as a lifestyle around the world.
+                        We help the beginners and the experienced members of our club become professional fishermen.
+                        At the same time we advise taking care of the environment.
+                    </p>
+
+                    <div class="about-btn">
+                        <a href="index.html" class="cmn-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <div class="statement-img">
+                    <figure>
+                        <img src="images/about1_img.png" class="img-fluid" alt="about">
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    
+    <section class="about2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="about-sub">
+              <h3 class="h3-title content-letter">About Us</h4>
+                <i class="fa-solid fa-fish"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="container">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+    slides-per-view="3">
+              <swiper-slide><div class="guide-pad">
+                <figure>
+                  <img src="images/service1-600x366.jpg" alt="guide" loading="lazy">
+                </figure>
+                <div class="guide-wraper">
+                  <h6 class="h6-title"><span style="color: #093a54;">Fishing:</span>   TACKLE AND EQUIPMENT REQUIRED FOR YOUR TRIP</h6>
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+
+                </div>
+              </div></swiper-slide>
+              <swiper-slide><div class="guide-pad">
+                <figure>
+                  <img src="images/service2-600x366.jpg" alt="guide" loading="lazy">
+                </figure>
+                <div class="guide-wraper">
+                  <h6 class="h6-title"><span style="color: #093a54;">Guides:</span>  Our guides are all pro fly fishing anglers</h6>
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+
+                </div>
+              </div></swiper-slide>
+              <swiper-slide>  <div class="guide-pad">
+                <figure>
+                  <img src="images/service1-600x366.jpg" alt="guide" loading="lazy">
+                </figure>
+                <div class="guide-wraper">
+                  <h6 class="h6-title"><span>Accommodat:</span>   Our Lodge is located at the lagoon</h6>
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+
+                </div>
+              </div></swiper-slide>
+    <swiper-slide><div class="guide-pad">
+                <figure>
+                  <img src="images/service1-600x366.jpg" alt="guide" loading="lazy">
+                </figure>
+                <div class="guide-wraper">
+                  <h6 class="h6-title"><span style="color: #093a54;">Fishing:</span>   TACKLE AND EQUIPMENT REQUIRED FOR YOUR TRIP</h6>
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+
+                </div>
+              </div></swiper-slide>
+              <swiper-slide><div class="guide-pad">
+                <figure>
+                  <img src="images/service2-600x366.jpg" alt="guide" loading="lazy">
+                </figure>
+                <div class="guide-wraper">
+                  <h6 class="h6-title"><span style="color: #093a54;">Guides:</span>  Our guides are all pro fly fishing anglers</h6>
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+
+                </div>
+              </div></swiper-slide>
+              <swiper-slide>  <div class="guide-pad">
+                <figure>
+                  <img src="images/service1-600x366.jpg" alt="guide" loading="lazy">
+                </figure>
+                <div class="guide-wraper">
+                  <h6 class="h6-title"><span>Accommodat:</span>   Our Lodge is located at the lagoon</h6>
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+
+                </div>
+              </div></swiper-slide>
+            </swiper-container>
+          <div class="row">
+            
+            <div class="ban-btn part-btn">
+                <a href="index.html" class="banner_btn part">Learn More</a>
+            </div>
+           </div>
+          </div>
+    </section>
+    <section class="wbp-row">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="wbp-row-wrape">
+              <h2 class="h1-title" style="line-height: 1.2; margin-bottom: 28px;">freshwater fishing!</h2>
+              <p>Maecenas tristique orci ac sem. Duis ultricies pharetra<br>
+               magna. Donec accumsan malesuada orci.</p>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="vedio">
+              <div class="video-img">
+                <a href="#" class="video-box">
+                  <video
+                    autoplay muted playsinline
+                    src="vedio/13107299-uhd_2160_3840_60fps.mp4" class="video-fish"
+                  ></video>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work_wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-6">
+            <div class="about-sub">
+              <h3 class="h3-title content-letter">how it works</h4>
+                <i class="fa-solid fa-fish"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="work_flip">
+            <div class="col-sm-3">
+            <div class="work_icon">
+              <a href="index.html"class="services_item_icon"><i class="fa-solid fa-fish" ></i></a>
+              <div class="work_icon_wrap">
+                <h6 class="h6-title main-tag"><a href="index.html">Earn Points</a></h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, consequuntur fugit minima ad aperiam asperiores corporis qui earum ipsum laboriosam!
+                </p>
+                
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-3">
+            <div class="work_icon">
+              <a href="index.html"class="services_item_icon"><i class="fa-solid fa-mountain-sun"></i>></a>
+              <div class="work_icon_wrap">
+                <h6 class="h6-title main-tag"><a href="index.html">Get stuff</a></h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, consequuntur fugit minima ad aperiam asperiores corporis qui earum ipsum laboriosam!
+                </p>
+                
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-3">
+            <div class="work_icon">
+              <a href="index.html"class="services_item_icon"><i class="fa-solid fa-brush"></i></a>
+              <div class="work_icon_wrap">
+                <h6 class="h6-title main-tag"><a href="index.html">join</a></h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, consequuntur fugit minima ad aperiam asperiores corporis qui earum ipsum laboriosam!
+                </p>
+                
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-3">
+            <div class="work_icon">
+              <a href="index.html"class="services_item_icon"><i class="fa-solid fa-thumbs-up"></i></a>
+              <div class="work_icon_wrap">
+                <h6 class="h6-title main-tag"><a href="index.html">Upload & Share</a></h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, consequuntur fugit minima ad aperiam asperiores corporis qui earum ipsum laboriosam!
+                </p>
+                
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <section class="wbp-wraper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="wraper-text">
+              <h3 class="h3-title">what you get</h3>
+              <i class="fa-solid fa-fish"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 p-0">
+            <div class="wpb_wrapper_img">
+              <figure>
+                <img src="images/001.jpg" alt="wraper" loading="lazy">
+              </figure>
+              <div class="wpb_wrapper_text">
+                <a href="#">Super Yacht<br>fish Clubhouse</a>
+              </div>
+              <div class="wbp_pera">
+                <p>Earn monthly fishing adventures<br>for you & a friend</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-0">
+            <div class="wpb_wrapper_img">
+              <figure>
+                <img src="images/002.jpg" alt="wraper" loading="lazy">
+              </figure>
+              <div class="wpb_wrapper_text">
+                <a href="#">Trick 45</a>
+              </div>
+              <div class="wbp_pera">
+                <p>monthly resort giveaways<br>+10% off everyday for members</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-0">
+            <div class="wpb_wrapper_img">
+              <figure>
+                <img src="images/003.jpg" alt="wraper" loading="lazy">
+              </figure>
+              <div class="wpb_wrapper_text">
+                <a href="#">Fisher</a>
+              </div>
+              <div class="wbp_pera">
+                <p>free premium membership<br>hot spots, tips & Fishing social network + More</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-0">
+            <div class="wpb_wrapper_img">
+              <figure>
+                <img src="images/002.jpg" alt="wraper" loading="lazy">
+              </figure>
+              <div class="wpb_wrapper_text">
+                <a href="#">Exclusive<br>mega discounts</a>
+              </div>
+              <div class="wbp_pera">
+                <p>on brand name fishing gear<br>sponsor products & apparel</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-0">
+            <div class="wpb_wrapper_img">
+              <figure>
+                <img src="images/006.jpg" alt="wraper" loading="lazy">
+              </figure>
+              <div class="wpb_wrapper_text">
+                <a href="#">10% off</a>
+              </div>
+              <div class="wbp_pera">
+                <p>all pro staff guide<br>& charter services</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-0">
+            <div class="wpb_wrapper_img">
+              <figure>
+                <img src="images/004-1.jpg" alt="wraper" loading="lazy">
+              </figure>
+              
+               <div class="wpb_wrapper_text">
+                <a href="#">Pro Angler</a>
+              </div>
+              <div class="wbp_pera">
+                <p>Free 1 year subscription to the<br>#1 ranked fishing app</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+          
+            
+        </div> 
+      </div>
+      <div class="container">
+        <div class="row">
+           <div class="company">
+        <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <figure>
+                  <img src="images/6.png" alt="company" loading="lazy">               
+                 </figure>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                     <figure>
+                  <img src="images/5.png" alt="company" loading="lazy">
+                </figure>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                     <figure>
+                  <img src="images/4.png" alt="company" loading="lazy">
+                </figure>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                   <figure>
+                  <img src="images/3.png" alt="company" loading="lazy">
+                </figure>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <figure>
+                  <img src="images/2.png" alt="company" loading="lazy">
+                </figure>
+                </div>
+            </div>
+             <div class="swiper-slide">
+                <div class="card">
+                    <figure>
+                  <img src="images/1.png" alt="company" loading="lazy">
+                </figure>
+                </div>
+            </div>
+
+        </div>
+    </div>
+       </div>
+        </div>
+      </div>
+      <div class="tabgru">
+        <!-- <div class="container">
+        <div class="row">
+          <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+    slides-per-view="6">
+              
+              <swiper-slide>  <div class="guide-pad">
+                
+                
+              </div></swiper-slide>
+    <swiper-slide><div class="guide-pad">
+                
+                
+              </div></swiper-slide>
+              <swiper-slide><div class="guide-pad">
+                
+                
+              </div></swiper-slide>
+              <swiper-slide>  <div class="guide-pad">
+               
+                
+              </div></swiper-slide>
+              <swiper-slide>  <div class="guide-pad">
+                <figure>
+                  <img src="images/5.png" alt="company" loading="lazy">
+                </figure>
+                
+              </div></swiper-slide>
+              <swiper-slide>  <div class="guide-pad">
+                
+                
+              </div></swiper-slide>
+            </swiper-container>
+        </div>
+      </div> -->
+      </div>
+      
+    </section>
+    <section class="restors">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="restor_text">
+              <h1 class="h5-title">
+                killer fishing & resorts<br>
+                <span>get 10%off!</span>
+              </h1>
+              <p style="color: #ffffff; font-size: 19px; line-height: 27px;">For the members of our Fishing Club only! The best offers, tours and competitions. Stay in touch!</p>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimon">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+                <!-- Left Image -->
+            </div>
+
+            <div class="col-lg-6">
+              <div class="testimonial-container">
+
+        <div class="testimonial-slide active">
+            <p>"Being a beginner at first, it was very reassuring for me to use your services.
+              Now I can say that I am a professional."</p>
+            <img src="images/testim-2.jpg" alt="">
+
+              <h5>Andrew Preston</h5>
+              <span>Member</span>
+        </div>
+
+        <div class="testimonial-slide">
+            <p>"Excellent service and wonderful experience.
+            Highly recommended for every fishing enthusiast."</p>
+             <img src="images/testim-4.jpg" alt="">
+             <h5>John Smith</h5>
+              <span>Member</span>
+                      
+        </div>
+
+        <div class="testimonial-slide">
+            <p>"Friendly people, great atmosphere and unforgettable moments."</p>
+            <img src="images/testim-3.jpg" alt="">
+            <h5>David Wilson</h5>
+              <span>Member</span>                       
+        </div>
+
+    </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section class="buy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="about-sub">
+              <h3 class="h3-title content-letter">what to buy</h4>
+                <i class="fa-solid fa-fish"></i>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="custom">
+            <div class="col-sm-12">
+              <div class="custom-inner">
+                <div class="custom-wraper">
+                  <div class="mashin columns-5">
+                    <ul class="product columns-5">
+                      <li class="product-type">
+                        <div class="product-iteam">
+                          <div class="product-hover">
+                            <a href="#" ><img src="images/product2-300x300.jpg" alt=""></a>
+                          </div>
+                          <div class="post-data">
+                            <h5 class="product__title"><a href="#">Baitrunner Fishing Reel</a></h5>
+                            <span class="price">
+                              <span class="amount">$125.90</span>
+                              <span class="area">-</span>
+                              <span class="amount">$152.90</span>
+                            </span>
+                            <a href="index.html" class=" product-btn">Select options</a>
+                          </div>
+                        </div>
+
+                      </li>
+                      <li class="product-type">
+                        <div class="product-iteam">
+                          <div class="product-hover">
+                            <a href="#" ><img src="images/product6-300x300.jpg" alt=""></a>
+                          </div>
+                          <div class="post-data">
+                            <h5 class="product__title"><a href="#">Baitrunner Fishing Reel</a></h5>
+                            <span class="price">
+                              <span class="amount">$125.90</span>
+                              <span class="area">-</span>
+                              <span class="amount">$152.90</span>
+                            </span>
+                            <a href="index.html" class="product-btn">Select options</a>
+                          </div>
+                        </div>
+
+                      </li>
+                      <li class="product-type">
+                        <div class="product-iteam">
+                          <div class="product-hover">
+                            <a href="#" ><img src="images/product3-300x300.jpg" alt=""></a>
+                          </div>
+                          <div class="post-data">
+                            <h5 class="product__title"><a href="#">Baitrunner Fishing Reel</a></h5>
+                            <span class="price">
+                              <span class="amount">$125.90</span>
+                              <span class="area">-</span>
+                              <span class="amount">$152.90</span>
+                            </span>
+                            <a href="index.html" class="product-btn">Select options</a>
+                          </div>
+                        </div>
+
+                      </li>
+                      <li class="product-type">
+                        <div class="product-iteam">
+                          <div class="product-hover">
+                            <a href="#" ><img src="images/product4-300x300.jpg" alt=""></a>
+                          </div>
+                          <div class="post-data">
+                            <h5 class="product__title"><a href="#">Baitrunner Fishing Reel</a></h5>
+                            <span class="price">
+                              <span class="amount">$125.90</span>
+                              <span class="area">-</span>
+                              <span class="amount">$152.90</span>
+                            </span>
+                              <a href="index.html" class="product-btn">Select options</a>
+                          </div>
+                        </div>
+
+                      </li>
+                      <li class="product-type">
+                        <div class="product-iteam">
+                          <div class="product-hover">
+                            <a href="#" ><img src="images/product5-300x300.jpg" alt=""></a>
+                          </div>
+                          <div class="post-data">
+                            <h5 class="product__title"><a href="#">Baitrunner Fishing Reel</a></h5>
+                            <span class="price">
+                              <span class="amount">$125.90</span>
+                              <span class="area">-</span>
+                              <span class="amount">$152.90</span>
+                            </span>
+                              <a href="index.html" class="product-btn">Select options</a>
+                          </div>
+                        </div>
+
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="timing">
+      <div class="container">
+        <div class="time-pic">
+          <div class="row">
+          <div class="col-md-4">
+            <div class="time-content">
+              <h4 class="time-text">One week fishing trip</h4>
+              <span class="time-span">all inclusive fishing trip for two on our clubhouse</span>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="time-content">
+            <div class="custom_128975">
+              <p class="time-content_pera">Current Giveaway Ends:</p>
+            </div>
+            <div class="timing-wraper">
+              <div class="count-down-day">
+                <span class="sc_countdown_digits">45</span>
+                <span class="sc_countdown_lable">days</span>
+              </div>
+              <div class="count-down-day">
+                <span class="sc_countdown_digits">45</span>
+                <span class="sc_countdown_lable">hours</span>
+              </div>
+              <div class="count-down-day">
+                <span class="sc_countdown_digits">45</span>
+                <span class="sc_countdown_lable">minuts</span>
+              </div>
+              <div class="count-down-day">
+                <span class="sc_countdown_digits">45</span>
+                <span class="sc_countdown_lable">seconds</span>
+              </div>
+            </div>
+
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="time-content">
+              <div class="time-btn">
+                <a href="index.html" class="product-btn">become a member</a>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="boat">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-12">
+            <div class="bot-wraper">
+              <h1 class="boat_text">win this boat!</h1>
+              <p class="boat_text_pera">with each our Club subscription from the club member you also receive and<br>
+               entry to <span>win $50.000 Saturn 726 Pro bass boat!</span></p>
+               <a href="index.html" class="product-btn boat_text_pera_btn">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="wine">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="about-sub">
+              <h3 class="h3-title content-letter">the winners</h4>
+                <i class="fa-solid fa-fish"></i>
+            </div>
+          </div>
+        </div>
+       <div class="team_sub">
+         <div class="row">
+          <div class="col-md-3">
+            <div class="winner_team">
+              <a href="#"><img src="images/winner1-300x300.jpg" alt="winner-img" loading="lazy"></a>
+            </div>
+            <div class="winner_team_info">
+              <div class="team-info-header">
+                <h4 class="sc_team_item_title"><a href="#">Henry Thomas</a></h4>
+              </div>
+              <div class="team-content">
+                <p>Cum sociis natoque penatibus</p>
+              </div>
+              <div class="team-social">
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-solid fa-x"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-facebook-f"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="winner_team">
+              <a href="#"><img src="images/winner2-300x300.jpg" alt="winner-img" loading="lazy"></a>
+            </div>
+            <div class="winner_team_info">
+              <div class="team-info-header">
+                <h4 class="sc_team_item_title"><a href="#">Henry Thomas</a></h4>
+              </div>
+              <div class="team-content">
+                <p>Cum sociis natoque penatibus</p>
+              </div>
+              <div class="team-social">
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-solid fa-x"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-facebook-f"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="winner_team">
+              <a href="#"><img src="images/winner3-300x300.jpg" alt="winner-img" loading="lazy"></a>
+            </div>
+            <div class="winner_team_info">
+              <div class="team-info-header">
+                <h4 class="sc_team_item_title"><a href="#">Henry Thomas</a></h4>
+              </div>
+              <div class="team-content">
+                <p>Cum sociis natoque penatibus</p>
+              </div>
+              <div class="team-social">
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-solid fa-x"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="facebook.com" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-facebook-f"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="instagram.com" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="winner_team">
+              <a href="#"><img src="images/winner4-300x300.jpg" alt="winner-img" loading="lazy"></a>
+              
+            </div>
+            <div class="winner_team_info">
+              <div class="team-info-header">
+                <h4 class="sc_team_item_title"><a href="#">Henry Thomas</a></h4>
+              </div>
+              <div class="team-content">
+                <p>Cum sociis natoque penatibus</p>
+              </div>
+              <div class="team-social">
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-solid fa-x"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-facebook-f"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="#" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+
+    </section>
+    <section class="form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form_section">
+              <h4 class="form_text">Join our community!</h4>
+              <h6><span class="form_sub">stay up to date with all the latest<br>fishing club news</span></h6>
+            </div>
+          </div>
+          <div class="col-md-6">
+           <form action="" method="post" class="form-details">
+             <div class="mail-section">
+              <div class="feedback d-flex">
+                 <input type="email" name="email" class="input-fild" placeholder="Your Email Address" required fdprocessedid="cjksvo">
+                 <button type="submit" class="sign primary_btn">sign in</button>
+              </div>
+            
+            </div>
+            <label style="display: none !important;">
+              "Leave this field empty if you're human: "
+              <input type="text" name="mail-section" value="1" autocomplete="off">
+              
+
+            </label>
+            <input type="hidden" name="_mail_timestamp" value="1234567">
+            <input type="hidden" name="_mail-form_id" value="506">
+            <input type="hidden" name="_mail-section-form_element_id" value="mail-section-1">
+           </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="waves">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="waves-waper">
+              <h1 class="waves-text">we’re making waves together</h1>
+              <p>Gear that is attached to the end of a fishing line is called terminal tackle.<br>Sometimes 
+                the term fishing rig is used for a completed assembly of tackle ready for fishing.</p>
+                
+            </div>
+            <div class="ban-btn part-btn">
+                  <a href="index.html" class="banner_btn part">click here</a>
+                </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </section>
+    <section class="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="about-sub blog-icon">
+              <h3 class="h3-title content-letter ">our blog</h4>
+                <i class="fa-solid fa-fish"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="blog_valu">
+                <div class="blog-info">
+                  <a href="#"><img src="images/post-16-740x440.jpg" alt="blog" loading="lazy"></a>
+                  <div class="entry-inner">
+                    <div class="entry-header">
+                      <div class="post_deta">
+                        <span class="post_methode"><i class="fa-regular fa-clock clock-1"></i> August 8, 2016</span>
+                      </div>
+                      <h5 class="iteam-title"><a href="#">It’s simple. Just check our membership options</a></h5>
+                      <div class="iteam_pera">
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                         ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+                         <div class="iteam-menu">
+                          <span class="post_meta_item author_post icon-user-1"><i class="fa-solid fa-user"></i>
+                            <span class="author_title">Adam Brown</span>
+                          </span>
+                          <a href="#" class="comment">
+                            <i class="fa-solid fa-comment"></i>
+                            <span class="number"> 0</span>
+                            <!-- <span class="lable">Comments</span> -->
+                          </a>
+                          <a href="#" class="comment">
+                            <i class="fa-solid fa-street-view"></i> 
+                            <span class="number">101</span>
+                            <!-- <span class="lable">viewa</span> -->
+                          </a>
+                          
+
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog_valu">
+                <div class="blog-info">
+                  <a href="#"><img src="images/post-14-740x440.jpg" alt="blog" loading="lazy"></a>
+                  <div class="entry-inner">
+                    <div class="entry-header">
+                      <div class="post_deta">
+                        <span class="post_methode"><i class="fa-regular fa-clock clock-1"></i> August 7, 2016</span>
+                      </div>
+                      <h5 class="iteam-title"><a href="#">Consume content and share for points to win trips</a></h5>
+                      <div class="iteam_pera">
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                         ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+                         <div class="iteam-menu">
+                          <span class="post_meta_item author_post icon-user-1"><i class="fa-solid fa-user"></i>
+                            <span class="author_title">Adam Brown</span>
+                          </span>
+                          <a href="#" class="comment">
+                            <i class="fa-solid fa-comment"></i>
+                            <span class="number"> 0</span>
+                            <!-- <span class="lable">Comments</span> -->
+                          </a>
+                          <a href="#" class="comment">
+                            <i class="fa-solid fa-street-view"></i> 
+                            <span class="number">101</span>
+                            <!-- <span class="lable">viewa</span> -->
+                          </a>
+                          
+
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog_valu">
+                <div class="blog-info">
+                  <a href="#"><img src="images/post-16-740x440.jpg" alt="blog" loading="lazy"></a>
+                  <div class="entry-inner">
+                    <div class="entry-header">
+                      <div class="post_deta">
+                        <span class="post_methode"><i class="fa-regular fa-clock clock-1"></i> August 6, 2016</span>
+                      </div>
+                      <h5 class="iteam-title"><a href="#">Every member has an opportunity to receive prizes</a></h5>
+                      <div class="iteam_pera">
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                         ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.</p>
+                         <div class="iteam-menu">
+                          <span class="post_meta_item author_post icon-user-1"><i class="fa-solid fa-user"></i>
+                            <span class="author_title">Adam Brown</span>
+                          </span>
+                          <a href="#" class="comment">
+                            <i class="fa-solid fa-comment"></i>
+                            <span class="number"> 0</span>
+                            <!-- <span class="lable">Comments</span> -->
+                          </a>
+                          <a href="#" class="comment">
+                            <i class="fa-solid fa-street-view"></i> 
+                            <span class="number">101</span>
+                            <!-- <span class="lable">viewa</span> -->
+                          </a>
+                          
+
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- whatsapp-->
+        <div class="message-icon">
+            <a href="#"><i class="fa-solid fa-message"></i></a>
+
+        </div>
+        <!-- whatsapp-->
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d114038.63803704201!2d88.35310152390504!3d26.72179186420124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1secopark!5e0!3m2!1sen!2sin!4v1770808022237!5m2!1sen!2sin"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+      
+    </main>
+    <footer class="footer">
+      <div class="footer-iner-">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer_menu">
+              <div class="heading">
+                <span class="footer-head">menu</span>
+              </div>
+              <ul class="footer-menu-iteam">
+
+                <li class="footer-menu-bar"><a href="#"><span>home</span></a></li>
+                <li class="footer-menu-bar"><a href="#">about us</a></li>
+                <li class="footer-menu-bar"><a href="#">fishing</a></li>
+                <li class="footer-menu-bar"><a href="#">blog</a></li>
+                <li class="footer-menu-bar"><a href="#">travel</a></li>
+                <li class="footer-menu-bar"><a href="contact.html">contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_menu">
+              <div class="heading">
+                <span class="footer-head">Party Boats</span>
+              </div>
+              <ul class="footer-menu-iteam">
+
+                <li class="footer-menu-bar"><a href="#">hulicat</a></li>
+                <li class="footer-menu-bar"><a href="#">new captain pete</a></li>
+                <li class="footer-menu-bar"><a href="#">Blue Runner</a></li>
+                <li class="footer-menu-bar"><a href="#">Six Pack Boats</a></li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_menu">
+              <div class="heading">
+                <span class="footer-head">Useful Links</span>
+              </div>
+              <ul class="footer-menu-iteam">
+
+                <li class="footer-menu-bar"><a href="#">Marine Calendar</a></li>
+                <li class="footer-menu-bar"><a href="#">Whale Entanglement Risk</a></li>
+                <li class="footer-menu-bar"><a href="#">Bay Area Webcams</a></li>
+                <li class="footer-menu-bar"><a href="#">Fishing Knots</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_menu">
+              <div class="heading">
+                <span class="footer-head">Get Our Newsletter</span>
+              </div>
+              <div class="footer-form">
+                <form action="" method="post" class="form-details">
+             <div class="mail-section">
+              <div class="feedback d-flex">
+                 <input type="email" name="email" class="input-fild" placeholder="Your Email Address" required fdprocessedid="cjksvo">
+                 <button type="submit" class="sign primary_btn">sign in</button>
+              </div>
+            
+            </div>
+            <label style="display: none !important;">
+              "Leave this field empty if you're human: "
+              <input type="text" name="mail-section" value="1" autocomplete="off">
+              
+
+            </label>
+            <input type="hidden" name="_mail_timestamp" value="1234567">
+            <input type="hidden" name="_mail-form_id" value="506">
+            <input type="hidden" name="_mail-section-form_element_id" value="mail-section-1">
+           </form>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer_menu">
+              <div class="heading">
+                <span class="footer-head">about</span>
+              </div>
+              <ul class="footer-menu-iteam">
+
+                <li class="footer-menu-bar"><a href="#">Corporate Information</a></li>
+                <li class="footer-menu-bar"><a href="#">Locations</a></li>
+                <li class="footer-menu-bar"><a href="#">Leadership</a></li>
+                <li class="footer-menu-bar"><a href="#">Investor Relations</a></li>
+                <li class="footer-menu-bar"><a href="#">Newsroom</a></li>
+                <li class="footer-menu-bar"><a href="#">Videos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_menu">
+              <div class="heading">
+                <span class="footer-head">Blog Categories</span>
+              </div>
+              <ul class="footer-menu-iteam">
+
+                <li class="footer-menu-bar"><a href="#">Seasonal Fish Hunt</a></li>
+                <li class="footer-menu-bar"><a href="#">Equipment & Gear</a></li>
+                <li class="footer-menu-bar"><a href="#">Tips & Tricks</a></li>
+                <li class="footer-menu-bar"><a href="#">Environment</a></li>
+                <li class="footer-menu-bar"><a href="#">Water Transport</a></li>
+                <li class="footer-menu-bar"><a href="#">River Guide</a></li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_menu">
+              <div class="heading">
+                <span class="footer-head">more</span>
+              </div>
+              <ul class="footer-menu-iteam">
+
+                <li class="footer-menu-bar"><a href="#">Our Waters</a></li>
+                <li class="footer-menu-bar"><a href="#">Join the Club</a></li>
+                <li class="footer-menu-bar"><a href="#">Day Tickets</a></li>
+                <li class="footer-menu-bar"><a href="#">Latest News & Events</a></li>
+                <li class="footer-menu-bar"><a href="#">Members Area</a></li>
+                <li class="footer-menu-bar"><a href="#">Terms of Use</a></li>
+                <li class="footer-menu-bar"><a href="#">Privacy Policy</a></li>
+                <li class="footer-menu-bar"><a href="#">Site Map</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_menu">
+              <div class="heading">
+                <span class="footer-head">follow us</span>
+                <div class="social-description">
+                  <p>Lorem ipsum dolor sit amet, consectt diping elit esent vestibulum molestie lacus. Aenean nonmy hendrerit ris.
+                     Phasellus porta. Fusuit varius mi.Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                </div>
+                <div class="social-wrape">
+                  <span class="social_item"><a href="x.com" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-solid fa-x"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="www.facebook.com" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-facebook-f"></i></span>
+                </a>
+                </span>
+                <span class="social_item"><a href="ww.instagram.com" target="_blank" class="social_x">
+                  <span class="social_item-icon-x"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                </span>
+
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+
+      </div>
+      <div class="container">
+         <div class="row">
+          <div class="copywrite-wraper">
+            <div class="copy-write-inner">
+              <div class="content-wrape">
+                <div class="copywrite-text">
+                  <p><a href="ancorathemes.com" target="_blank">AncoraThemes</a>
+                   © 2026. All rights reserved.</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </footer>
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
+
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    
+    });
+  </script>
+
+
+     <script>
+        $(document).ready(function(){
+            // toggle menu 
+            $(".menu-btn").click(function(){
+                $(".nav-links").slideToggle();
+            });
+            // sticky navbar
+            let navbar = $(".banner-header");
+            let stickyOffset = navbar .offset().top;
+            // let scrollTop = $(window).scrollTop;
+            $(window).scroll(function(){
+                if ($(window).scrollTop () > stickyOffset){
+                    navbar .addClass("sticky");
+                }else{
+                    navbar.removeClass("sticky");
+                }
+            });
+            $(window).resize(function(){
+                if($(window).width() > 768){
+                    $(".nav-links").removeAttr("style");
+                }
+            });
+        });
+
+     </script>
+      <script>
+    const slides = document.querySelectorAll(".testimonial-slide");
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
+
+let current = 0;
+
+function showSlide(index){
+
+    slides.forEach(slide=>{
+        slide.classList.remove("active");
+    });
+
+    slides[index].classList.add("active");
+}
+
+// Auto Slide
+
+setInterval(()=>{
+
+    current++;
+
+    if(current >= slides.length){
+        current = 0;
+    }
+
+    showSlide(current);
+
+},3000);
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    loop: true,
+
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2
+        },
+        992: {
+            slidesPerView: 4
+        }
+    }
+});
+</script>
+
+
+
+  </body>
+</html>
